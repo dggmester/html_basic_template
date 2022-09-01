@@ -150,7 +150,7 @@ $gitHub_commit.Add_Click({
 	$commit = Read-Host -Prompt 'commit = '
 	& $GIT add .
 	& $GIT commit -m $commit
-	& $GIT push -u origin master
+	& $GIT push -u origin main
 	Write-Host "KÉSZ!"
 })
 $y_top                                          = $y_top + $d_top
